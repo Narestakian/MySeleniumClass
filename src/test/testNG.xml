@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationTestSuite">
+
+
+
+    <test name="AlertPageTest">
+<classes><class name="Utils.SetUpClasses" />
+    <class name="AlertPageTest"/>
+</classes>
+
+
+
+  </test>
+    <test name="DropDownCheckTest">
+        <classes><class name="Utils.SetUpClasses" />
+            <class name="DropDownCheckTest"/>
+        </classes>
+
+
+    </test>
+        <test name="FillingFormTest">
+            <classes><class name="Utils.SetUpClasses" />
+                <class name="FillingFormTest"/>
+            </classes>
+
+
+        </test>
+    <test name="HoverPageTest">
+    <classes><class name="Utils.SetUpClasses" />
+        <class name="HoverPageTest"/>
+    </classes>
+
+    </test>
+
+    <test name="LoginPageTest">
+        <classes><class name="Utils.SetUpClasses" />
+            <class name="LoginPageTest"/>
+        </classes>
+
+    </test>
+
+</suite>
